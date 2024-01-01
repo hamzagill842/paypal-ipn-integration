@@ -53,7 +53,7 @@ To get started with the project, follow these steps:
     $host = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "youtube";
+    $dbname = "paypal_ipn";
 
     // Create connection
     $conn = new mysqli($host, $username, $password, $dbname);
