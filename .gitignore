@@ -1,0 +1,56 @@
+# Ignore vendor directories
+/vendor/
+
+# Ignore Composer files
+/composer.phar
+/composer.lock
+/vendor/
+
+# Ignore logs and other temporary files
+/log/
+/tmp/
+/temp/
+*.log
+
+# Ignore environment-specific files
+.env
+.phpunit.result.cache
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files that might be created on different platforms
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files that may contain sensitive information
+#config.php
+
+# Ignore user-specific files
+/.htaccess
+/phpunit.xml
+
+# Ignore generated files
+/build/
+/dist/
+
+# Ignore backup files
+*.bak
+*.swp
+*~
+
+# Ignore composer autoload files
+/vendor/autoload.php
+/vendor/composer/
+
+# Ignore node modules
+/node_modules/
+
+# Ignore SQLite database files
+/*.sqlite
+
+# Ignore log files
+/*.log
